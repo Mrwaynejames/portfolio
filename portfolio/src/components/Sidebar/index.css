@@ -49,6 +49,41 @@ a {
     transition: all 0.3s ease-out;
 }
 
-.icon:hover {
+a:hover {
     color: #ffd700;
 }
+
+svg:hover {
+    opacity: 0;
+}
+/* .icon:hover svg {
+    opacity: 0;
+} */
+
+a:hover::after {
+    opacity: 1;
+}
+
+a:after {
+    content: '';
+    font-size: 9px;
+    letter-spacing:2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.homeLink:hover::after {
+    content: 'HOME';
+}
+.aboutLink:after {
+    content: 'ABOUT';
+}
+.contactLink:after {
+    content: 'CONTACT';
+}
+
