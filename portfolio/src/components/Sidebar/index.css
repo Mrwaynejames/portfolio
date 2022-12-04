@@ -87,3 +87,10 @@ a:after {
     content: 'CONTACT';
 }
 
+a.active svg {
+    color: #ffd700;
+}
+a.active:hover {
+    color: black;
+    background-color: #ffd700;
+}
