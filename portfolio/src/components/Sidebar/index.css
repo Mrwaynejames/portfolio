@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 60px;
+    width: 65px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -30,13 +30,13 @@ nav {
     text-align: center;
     height: 210px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     width: 100%;
     margin-top: -120px;
 }
 
-a {
-    font-size: 22px;
+nav a {
+    font-size: 25px;
     color: #4d4d4e;
     display: block;
     line-height: 51px;
@@ -45,26 +45,26 @@ a {
     text-decoration: none;
 }
 
-.icon {
+/* .icon {
     transition: all 0.3s ease-out;
-}
+} */
 
-a:hover {
+nav a:hover {
     color: #ffd700;
 }
 
-svg:hover {
+/* nav a svg:hover {
     opacity: 0;
-}
+} */
 /* .icon:hover svg {
     opacity: 0;
 } */
 
-a:hover::after {
+nav a:hover::after {
     opacity: 1;
 }
 
-a:after {
+nav a:after {
     content: '';
     font-size: 9px;
     letter-spacing:2px;
@@ -80,17 +80,79 @@ a:after {
 .homeLink:hover::after {
     content: 'HOME';
 }
-.aboutLink:after {
+.aboutLink:hover::after {
     content: 'ABOUT';
 }
-.contactLink:after {
+.contactLink:hover::after {
     content: 'CONTACT';
 }
 
-a.active svg {
+nav a.active svg {
     color: #ffd700;
 }
-a.active:hover {
+nav a.active:hover {
     color: black;
     background-color: #ffd700;
+}
+
+ul {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+li a{
+padding: 12px 0;
+display: block;
+font-size: 28px;
+line-height: 16px;
+}
+
+/* .anchor:hover{
+    color: #ffd700;
+} */
+
+/* li a:hover::after {
+    opacity: 1;
+} */
+
+li a:after{
+    content: '';
+    font-size: 9px;
+    letter-spacing:2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+/* .linkedinanchor:hover{
+    content: 'LINKEDIN'
+}
+.githubanchor:hover{
+    color: white;
+}
+.instaanchor:hover{
+    color: red;
+} */
+
+.githubLink:hover::after{
+    content: 'GITHUB';
+    color: #ffd700;
+}
+.linkedinLink:hover::after{
+    content: 'LINKEDIN';
+    color: #ffd700;
+}
+.instaLink:hover::after{
+    content: 'INSTAGRAM';
+    color: #ffd700;
 }
