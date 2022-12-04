@@ -1,0 +1,54 @@
+.nav-bar {
+    background: #181818;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+
+.nav-bar.logo {
+    display: block;
+    padding: 8px 0;
+ }
+
+.nav-bar img {
+    display: block;
+    margin: 8px auto;
+    width: 40px;
+    height: auto;
+}
+.nav-bar img.initials {
+    border-radius: 20px;
+}
+.nav-bar img.n-logo {
+    width: 50px;
+}
+nav {
+    display: block;
+    text-align: center;
+    height: 210px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -120px;
+}
+
+a {
+    font-size: 22px;
+    color: #4d4d4e;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+}
+
+.icon {
+    transition: all 0.3s ease-out;
+}
+
+.icon:hover {
+    color: #ffd700;
+}
