@@ -13,7 +13,11 @@
 }
 @font-face {
   font-family: 'Coolvetica ';
-  src: url('./assets/fonts/Coolvetica-regular.woff2')format('woff2');
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2')format('woff2');
+}
+input,
+textarea{
+  font-family: "Helvetica Nue";
 }
 .App {
   text-align: center;
