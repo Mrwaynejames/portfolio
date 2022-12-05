@@ -25,6 +25,9 @@ const Contact = () => {
                             <li>
                                 <textarea name="message" placeholder="Message" required />
                             </li>
+                            <li>
+                                <input type="submit" className='flat-button' value="SEND" />
+                            </li>
                         </ul>
                     </form>
                 </div>
