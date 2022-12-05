@@ -9,7 +9,7 @@ const Contact = () => {
         e.preventDefault()
     
         emailjs
-          .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+          .sendForm('gmail', 'template_1ug3f07', form.current, 'service_b8z3oew')
           .then(
             () => {
               alert('Message successfully sent!')
@@ -36,26 +36,15 @@ const Contact = () => {
                   <input placeholder="Name" type="text" name="name" required />
                 </li>
                 <li className="half">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                    required
+                  <input placeholder="Email" type="email" name="email" required
                   />
                 </li>
                 <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
+                  <input placeholder="Subject" type="text" name="subject" required
                   />
                 </li>
                 <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
+                  <textarea placeholder="Message" name="message" required
                   ></textarea>
                 </li>
                 <li>

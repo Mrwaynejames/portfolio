@@ -25,19 +25,19 @@ const Sidebar = () => (
             </NavLink>
         </nav>
         <ul>
-            <li className="linkedinLink">
+            <li>
                 <a target="_blank" rel="noreferrer" className="linkedinLink" href="https://www.linkedin.com/in/jack-mcwilliams1996/">
-                    <FontAwesomeIcon className ="anchor" icon={faLinkedin} color='#4d4d4e' />
+                    <FontAwesomeIcon className="linkedinLink" icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
-            <li className ="githubLink">
+            <li>
                 <a target="_blank" rel="noreferrer" className ="githubLink" href="https://github.com/Mrwaynejames?tab=repositories">
-                    <FontAwesomeIcon  icon={faGithub} color='#4d4d4e' />
+                    <FontAwesomeIcon  className ="githubLink" icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
-            <li className="instaLink">
+            <li>
                 <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jackmcwillliams/">
-                    <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
+                    <FontAwesomeIcon className="instaLink" icon={faInstagram} color='#4d4d4e' />
                 </a>
             </li>
         </ul>

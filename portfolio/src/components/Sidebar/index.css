@@ -45,20 +45,9 @@ nav a {
     text-decoration: none;
 }
 
-/* .icon {
-    transition: all 0.3s ease-out;
-} */
-
 nav a:hover {
     color: #ffd700;
 }
-
-/* nav a svg:hover {
-    opacity: 0;
-} */
-/* .icon:hover svg {
-    opacity: 0;
-} */
 
 nav a:hover::after {
     opacity: 1;
@@ -97,7 +86,7 @@ nav a.active:hover {
 
 ul {
     position: absolute;
-    bottom: 43%;
+    bottom: 0%;
     width: 100%;
     display: block;
     padding: 0;
@@ -107,19 +96,14 @@ ul {
 }
 
 li a{
-padding: 12px 0;
-display: block;
-font-size: 28px;
-line-height: 16px;
+    font-size: 25px;
+    color: #4d4d4e;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
 }
-
-/* .anchor:hover{
-    color: #ffd700;
-} */
-
-/* li a:hover::after {
-    opacity: 1;
-} */
 
 li a:after{
     content: '';
@@ -134,25 +118,13 @@ li a:after{
     transition: all 0.3s ease-out;
 }
 
-/* .linkedinanchor:hover{
-    content: 'LINKEDIN'
-}
-.githubanchor:hover{
-    color: white;
-}
-.instaanchor:hover{
-    color: red;
-} */
 
-.githubLink:hover::after{
-    content: 'GITHUB';
+.githubLink:hover{
     color: #ffd700;
 }
-.linkedinLink:hover::after{
-    content: 'LINKEDIN';
+.linkedinLink:hover{
     color: #ffd700;
 }
-.instaLink:hover::after{
-    content: 'INSTAGRAM';
+.instaLink:hover{
     color: #ffd700;
 }

@@ -7,3 +7,46 @@
     animation: pulse 1s;
     animation-delay: 1.2s;
 }
+
+p {
+    font-size: 15px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: 300;
+    min-width: fit-content;
+    animation: pulse 1s;
+    text-align: left;
+}
+
+.p1{
+    animation-delay: 1.1s;
+}
+.p2{
+    animation-delay: 1.2s;
+}
+.p3{
+    animation-delay: 1.3s;
+}
+
+.about-page .text-zone {
+    position: absolute;
+    left: 10%;
+    transform:translateY(-50%);
+    width:35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    margin: auto;
+}
+
+.about-page h1 {
+font-size: 53px;
+font-family: Franklin Gothic Medium;
+color: #ffd700;
+font-weight: 400;
+margin-top: 0;
+position: relative;
+margin-bottom: 40px;    
+left: 10px;
+text-decoration: underline;
+}
