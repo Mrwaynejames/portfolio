@@ -26,9 +26,9 @@ const Contact = () => {
           <h1>
            Contact Me
           </h1>
-          <p>
+          {/* <p>
             Please dont hesitate to reach out. I look forward to hearing from you.
-          </p>
+          </p> */}
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
@@ -54,6 +54,9 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <p>
+            Please dont hesitate to reach out. I look forward to hearing from you.
+          </p>
         </div>
     )
 }

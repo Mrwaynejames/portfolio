@@ -19,7 +19,7 @@ li {
     display: block;
     position: relative;
     opacity: 0;
-    animation: fadeInUp 2s 2s;
+    animation: fadeIn 2s 2s;
     animation-fill-mode: forwards;
 }
 
@@ -83,3 +83,30 @@ input[type='text'] {
     text-align: center;
     margin-right: 10px;
   }
+
+  .contact-page .text-zone {
+    position: absolute;
+    left: 10%;
+    transform:translateY(-50%);
+    width:35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    margin: auto;
+}
+
+.contact-page h1 {
+font-size: 53px;
+font-family: Franklin Gothic Medium;
+color: #ffd700;
+font-weight: 400;
+margin-top: 0;
+position: relative;
+margin-bottom: 40px;    
+left: 10px;
+text-decoration: underline;
+}
+
+/* .text {
+  margin-top: 500px;
+} */

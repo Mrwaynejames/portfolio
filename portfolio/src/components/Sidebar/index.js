@@ -23,6 +23,10 @@ const Sidebar = () => (
             <NavLink exact="true" activeclassname="active" className="contactLink" to="/contact">
                <FontAwesomeIcon className ='icon' icon={faEnvelope} color="#4d4d43" /> 
             </NavLink>
+
+            <NavLink exact="true" className="linkedinLink" to={"//www.linkedin.com/in/jack-mcwilliams1996/"}>
+               <FontAwesomeIcon className ='icon' icon={faLinkedin} color="#4d4d43" /> 
+            </NavLink>
         </nav>
         <ul>
             <li>

@@ -75,6 +75,9 @@ nav a:after {
 .contactLink:hover::after {
     content: 'CONTACT';
 }
+.linkedinLink:hover::after {
+    content: 'LINKEDIN';
+}
 
 nav a.active svg {
     color: #ffd700;
@@ -119,7 +122,7 @@ li a:after{
 }
 
 
-.githubLink:hover{
+/* .githubLink:hover{
     color: #ffd700;
 }
 .linkedinLink:hover{
@@ -127,4 +130,4 @@ li a:after{
 }
 .instaLink:hover{
     color: #ffd700;
-}
+} */
