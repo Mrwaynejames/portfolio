@@ -1,7 +1,7 @@
 import './index.css'
 import { Link, NavLink } from 'react-router-dom'
 import Ilogo from '../../assets/images/initalslogo.png'
-import nameLogo from '../../assets/images/name.png'
+// import nameLogo from '../../assets/images/name.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -10,7 +10,6 @@ const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img className ='initials' src={Ilogo} alt ="logo" />
-            <img className ='n-logo' src={nameLogo} alt ="name" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" className="homeLink" to="/">

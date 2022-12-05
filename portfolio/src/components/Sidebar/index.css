@@ -32,7 +32,7 @@ nav {
     position: absolute;
     top: 30%;
     width: 100%;
-    margin-top: -120px;
+    margin-top: -140px;
 }
 
 nav a {
@@ -97,7 +97,7 @@ nav a.active:hover {
 
 ul {
     position: absolute;
-    bottom: 40%;
+    bottom: 45%;
     width: 100%;
     display: block;
     padding: 0;
