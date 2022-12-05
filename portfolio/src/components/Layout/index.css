@@ -9,14 +9,14 @@
     top: 35px;
 }
 
-.tags {
+/* .tags {
     color:#ffd700;
     position:absolute;
     bottom: 0;
     left: 120px;
     font-size:18px;
     font-family: 'La Belle Aurore', cursive;
-}
+} */
 
 .bottom-tag-html {
     margin-left:-20px;
@@ -62,7 +62,6 @@
     }
 
 .about-page h1::before {
-    content: '<h1>';
     font-family: Franklin Gothic Medium;
     font-size: 18px;
     position: absolute;
@@ -73,7 +72,6 @@
 }
 
 .about-page h1::after {
-    content: '<h1/>';
     font-family: Franklin Gothic Medium;
     font-size: 18px;
     position: absolute;
@@ -85,10 +83,21 @@
 }
 
 p {
-    font-style: 13px;
+    font-size: 15px;
     color:white;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
     animation: pulse 1s;
+    text-align: left;
+}
+
+.p1{
+    animation-delay: 1.1s;
+}
+.p2{
+    animation-delay: 1.2s;
+}
+.p3{
+    animation-delay: 1.3s;
 }
