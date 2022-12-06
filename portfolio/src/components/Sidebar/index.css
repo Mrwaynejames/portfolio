@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 65px;
+    width: 70px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -30,7 +30,7 @@ nav {
     text-align: center;
     height: 210px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 100%;
     margin-top: -140px;
 }
@@ -78,6 +78,18 @@ nav a:after {
 .linkedinLink:hover::after {
     content: 'LINKEDIN';
 }
+.githubLink:hover::after {
+    content: 'GITHUB';
+}
+.instaLink:hover::after {
+    content: 'INSTAGRAM';
+}
+.workLink:hover::after {
+    content: 'PROJECTS';
+}
+.resumeLink:hover::after {
+    content: 'RESUME';
+}
 
 nav a.active svg {
     color: #ffd700;
@@ -86,48 +98,3 @@ nav a.active:hover {
     color: black;
     background-color: #ffd700;
 }
-
-ul {
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    display: block;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    
-}
-
-li a{
-    font-size: 25px;
-    color: #4d4d4e;
-    display: block;
-    line-height: 51px;
-    height: 51px;
-    position: relative;
-    text-decoration: none;
-}
-
-li a:after{
-    content: '';
-    font-size: 9px;
-    letter-spacing:2px;
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    transition: all 0.3s ease-out;
-}
-
-
-/* .githubLink:hover{
-    color: #ffd700;
-}
-.linkedinLink:hover{
-    color: #ffd700;
-}
-.instaLink:hover{
-    color: #ffd700;
-} */

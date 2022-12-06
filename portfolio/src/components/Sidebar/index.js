@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import Ilogo from '../../assets/images/initalslogo.png'
 // import nameLogo from '../../assets/images/name.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faSuitcase, faPaperclip } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -24,27 +24,26 @@ const Sidebar = () => (
                <FontAwesomeIcon className ='icon' icon={faEnvelope} color="#4d4d43" /> 
             </NavLink>
 
+            <NavLink exact="true" activeclassname="active" className="workLink" to="/portfolio">
+               <FontAwesomeIcon className ='icon' icon={faSuitcase} color="#4d4d43" /> 
+            </NavLink>
+
+            <NavLink exact="true" activeclassname="active" className="resumeLink" to="/resume">
+               <FontAwesomeIcon className ='icon' icon={faPaperclip} color="#4d4d43" /> 
+            </NavLink>
+
             <NavLink exact="true" className="linkedinLink" to={"//www.linkedin.com/in/jack-mcwilliams1996/"}>
                <FontAwesomeIcon className ='icon' icon={faLinkedin} color="#4d4d43" /> 
             </NavLink>
+
+            <NavLink exact="true" className="githubLink" to={"//github.com/Mrwaynejames?tab=repositories"}>
+               <FontAwesomeIcon className ='icon' icon={faGithub} color="#4d4d43" /> 
+            </NavLink>
+
+            <NavLink exact="true" className="instaLink" to={"//www.instagram.com/jackmcwillliams/"}>
+               <FontAwesomeIcon className ='icon' icon={faInstagram} color="#4d4d43" /> 
+            </NavLink>
         </nav>
-        <ul>
-            <li>
-                <a target="_blank" rel="noreferrer" className="linkedinLink" href="https://www.linkedin.com/in/jack-mcwilliams1996/">
-                    <FontAwesomeIcon className="linkedinLink" icon={faLinkedin} color='#4d4d4e' />
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="noreferrer" className ="githubLink" href="https://github.com/Mrwaynejames?tab=repositories">
-                    <FontAwesomeIcon  className ="githubLink" icon={faGithub} color='#4d4d4e' />
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jackmcwillliams/">
-                    <FontAwesomeIcon className="instaLink" icon={faInstagram} color='#4d4d4e' />
-                </a>
-            </li>
-        </ul>
     </div>
 )
 

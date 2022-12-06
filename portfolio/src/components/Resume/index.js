@@ -1,12 +1,12 @@
-import './index.css'
+import './index.css';
 import resume from '../../assets/images/cvPic.png'
 const Resume = () => {
     return (
             <div className='resume-page'>
-                <img src={resume} alt='cv' /> 
-                    <h1>
+                <h1>
                         Resume
                     </h1>
+                <img src={resume} alt='cv' /> 
             </div>
     
     )

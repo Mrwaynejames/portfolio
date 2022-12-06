@@ -1,14 +1,15 @@
 .mePic {
     width:30%;
     height: auto;
-    margin-Left: 80px;
-    margin-top: 50px;
     position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 50px;
     animation: pulse 1s;
     animation-delay: 1.2s;
 }
 
-p {
+/* p {
     font-size: 15px;
     color:white;
     font-family: sans-serif;
@@ -49,4 +50,4 @@ position: relative;
 margin-bottom: 40px;    
 left: 10px;
 text-decoration: underline;
-}
+} */
