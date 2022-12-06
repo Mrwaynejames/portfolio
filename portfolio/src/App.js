@@ -17,10 +17,6 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/portfolio" element={<Portfolio />} />
-      <Route path='/linkedin' component={() => { 
-     window.location.href = 'https://www.linkedin.com/in/jack-mcwilliams1996/'; 
-     return null;
-}}/>
       </Route>
     </Routes>
     </>

@@ -1,15 +1,15 @@
 .mePic {
-    width:30%;
+    width: 350px;
     height: auto;
     position: absolute;
     margin-top: 10%;
     margin-bottom: 10%;
-    padding-left: 50px;
+    margin-right: 10%;
     animation: pulse 1s;
     animation-delay: 1.2s;
 }
 
-/* p {
+ p {
     font-size: 15px;
     color:white;
     font-family: sans-serif;
@@ -29,7 +29,7 @@
     animation-delay: 1.3s;
 }
 
-.about-page .text-zone {
+.text-zone {
     position: absolute;
     left: 10%;
     transform:translateY(-50%);
@@ -37,10 +37,11 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-    margin: auto;
+    margin-top: 400px;
+
 }
 
-.about-page h1 {
+h1 {
 font-size: 53px;
 font-family: Franklin Gothic Medium;
 color: #ffd700;
@@ -50,4 +51,4 @@ position: relative;
 margin-bottom: 40px;    
 left: 10px;
 text-decoration: underline;
-} */
+}

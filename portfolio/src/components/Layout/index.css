@@ -1,13 +1,8 @@
-.page {
+/* .page {
     width:100%;
     height:100%;
     position:absolute;
-}
-
-.top-tags {
-    bottom:auto;
-    top: 35px;
-}
+} */
 
 /* .tags {
     color:#ffd700;
@@ -18,12 +13,7 @@
     font-family: 'La Belle Aurore', cursive;
 } */
 
-.bottom-tag-html {
-    margin-left:-20px;
-}
-
-
-.container {
+/* .container {
     width: 100%;
     will-change: contents;
     height:90%;
@@ -36,9 +26,9 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-}
+} */
 
-.about-page .text-zone {
+/* .about-page .text-zone {
         position: absolute;
         left: 10%;
         transform:translateY(-50%);
@@ -46,9 +36,9 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
-    }
+    } */
 
-.container.about-page h1 {
+/* .container.about-page h1 {
     font-size: 53px;
     font-family: Franklin Gothic Medium;
     color: #ffd700;
@@ -57,10 +47,9 @@
     position: relative;
     margin-bottom: 40px;    
     left: 10px;
-    text-decoration: underline;
-    }
+    } */
 
-.container.about-page h1::before {
+/* .container.about-page h1::before {
     font-family: Franklin Gothic Medium;
     font-size: 18px;
     position: absolute;
@@ -79,9 +68,9 @@
     bottom: -20px;
     opacity: 0.6;
     line-height: 18px;
-}
+} */
 
-.container.contact-page .text-zone {
+/* .container.contact-page .text-zone {
     position: absolute;
     left: 10%;
     transform:translateY(-50%);
@@ -89,9 +78,9 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-}
+} */
 
-.container.contact-page h1 {
+/* .container.contact-page h1 {
 font-size: 53px;
 font-family: Franklin Gothic Medium;
 color: #ffd700;
@@ -101,8 +90,8 @@ position: relative;
 margin-bottom: 40px;    
 left: 10px;
 text-decoration: underline;
-}
-
+} */
+/* 
 .container.contact-page h1::before {
 font-family: Franklin Gothic Medium;
 font-size: 18px;
@@ -122,9 +111,9 @@ left: -30px;
 bottom: -20px;
 opacity: 0.6;
 line-height: 18px;
-}
+} */
 
-p {
+/* p {
     font-size: 15px;
     color:white;
     font-family: sans-serif;
@@ -142,4 +131,4 @@ p {
 }
 .p3{
     animation-delay: 1.3s;
-}
+} */

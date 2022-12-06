@@ -32,17 +32,19 @@ nav {
     position: absolute;
     top: 25%;
     width: 100%;
-    margin-top: -140px;
+    margin-top: -120px;
+    
 }
 
 nav a {
-    font-size: 25px;
+    font-size: 30px;
     color: #4d4d4e;
     display: block;
     line-height: 51px;
     height: 51px;
     position: relative;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 nav a:hover {

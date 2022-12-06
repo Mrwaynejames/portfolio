@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import './index.css';
 import Logo from './Logo'
+// import Logos from'../../../assets/images/initalslogo.png'
 
 const Home = () => {
     return (

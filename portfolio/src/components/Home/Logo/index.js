@@ -1,8 +1,6 @@
 import './index.css';
 import Logos from'../../../assets/images/initalslogo.png'
 
-
-
 const Logo =() => {
     return (
         <div className="logo-container">
