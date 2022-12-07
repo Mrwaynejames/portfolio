@@ -1,6 +1,7 @@
 import './index.css'
 import profile from '../../assets/images/about-me.png'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import resume from '../../assets/images/resume.pdf'
 const About = () => {
     return (
             <div className='container about-page'>
@@ -14,7 +15,8 @@ const About = () => {
                     </p>
                     <p className="p3">Looking into the future I am excited to use the same work ethic that I had for my sport and apply it to this career. I am an eager learner who loves getting feedback to see what areas I can improve on. Whatever skills you see that I am missing I will take on to learn quickly and thouroughly.
                     </p>
-                    <Link to="/resume" className='flat-button'>Resume</Link>
+                    <a href={resume}className='flat-button'>resume</a>
+                     {/* <Link to="//resume" className='flat-button'>Resume</Link>  */}
                 </div>
                 <div className='profilePic'>
                     <img className='mePic' src={profile} alt='me' /> 

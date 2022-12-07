@@ -1,8 +1,8 @@
-/* .page {
+.page {
     width:100%;
     height:100%;
     position:absolute;
-} */
+}
 
 /* .tags {
     color:#ffd700;
@@ -13,7 +13,7 @@
     font-family: 'La Belle Aurore', cursive;
 } */
 
-/* .container {
+.container {
     width: 100%;
     will-change: contents;
     height:90%;
@@ -26,27 +26,28 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-} */
+}
 
-/* .about-page .text-zone {
+.about-page .text-zone {
         position: absolute;
         left: 10%;
         transform:translateY(-50%);
-        width:35%;
+        width:40%;
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
-    } */
+    }
 
-/* .container.about-page h1 {
-    font-size: 53px;
+/* .about-page h1 {
+    font-size: 35px;
     font-family: Franklin Gothic Medium;
-    color: #ffd700;
+    color: #c19770;
     font-weight: 400;
     margin-top: 0;
     position: relative;
     margin-bottom: 40px;    
     left: 10px;
+    text-decoration: underline;
     } */
 
 /* .container.about-page h1::before {
@@ -70,7 +71,7 @@
     line-height: 18px;
 } */
 
-/* .container.contact-page .text-zone {
+.contact-page .text-zone {
     position: absolute;
     left: 10%;
     transform:translateY(-50%);
@@ -78,21 +79,22 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-} */
+    margin:auto;
+}
 
-/* .container.contact-page h1 {
+.contact-page h1 {
 font-size: 53px;
 font-family: Franklin Gothic Medium;
-color: #ffd700;
+color: #c19770;
 font-weight: 400;
 margin-top: 0;
 position: relative;
 margin-bottom: 40px;    
 left: 10px;
 text-decoration: underline;
-} */
-/* 
-.container.contact-page h1::before {
+}
+
+/* .contact-page h1::before {
 font-family: Franklin Gothic Medium;
 font-size: 18px;
 position: absolute;
@@ -100,9 +102,9 @@ margin-top: -10px;
 left: -10px;
 opacity: 0.6;
 line-height: 18px;
-}
+} */
 
-.container.contact-page h1::after {
+/* .contact-page h1::after {
 font-family: Franklin Gothic Medium;
 font-size: 18px;
 position: absolute;
@@ -115,7 +117,7 @@ line-height: 18px;
 
 /* p {
     font-size: 15px;
-    color:white;
+    color: #6f4e39;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;

@@ -1,16 +1,16 @@
-// import './index.css';
-// import Sidebar from '../Sidebar';
-// import {Outlet} from 'react-router-dom'
+import './index.css';
+import Sidebar from '../Sidebar';
+import {Outlet} from 'react-router-dom'
 
-// const Layout = () => {
-//     return (
-//     < div className="App">
-//         <Sidebar /> 
-//         <div className="page">
-//             <Outlet />
-//         </div>
-//     </div>
-//     )
-// }
+const Layout = () => {
+    return (
+    < div className="App">
+        <Sidebar /> 
+        <div className="page">
+            <Outlet />
+        </div>
+    </div>
+    )
+}
 
-// export default Layout
+export default Layout

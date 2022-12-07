@@ -9,8 +9,8 @@
     animation-delay: 1.2s;
 }
 
- p {
-    font-size: 15px;
+   p {
+    font-size: 18px;
     color:white;
     font-family: sans-serif;
     font-weight: 300;
@@ -29,22 +29,21 @@
     animation-delay: 1.3s;
 }
 
-.text-zone {
+.about-page .text-zone {
     position: absolute;
     left: 10%;
     transform:translateY(-50%);
     width:35%;
     vertical-align: middle;
     display: table-cell;
-    max-height: 90%;
-    margin-top: 400px;
+    max-height: 85%;
 
-}
+} 
 
-h1 {
+.about-page h1 {
 font-size: 53px;
 font-family: Franklin Gothic Medium;
-color: #ffd700;
+color: #c19770;
 font-weight: 400;
 margin-top: 0;
 position: relative;

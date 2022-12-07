@@ -1,7 +1,6 @@
 
 .contact-form {
     width: 100%;
-    margin-top: 100%;
 }
 
 form {
@@ -26,6 +25,8 @@ form {
     animation-fill-mode: forwards;
 }
 
+
+
  li.half {
     width: 49%;
     margin-left: 2%;
@@ -40,7 +41,7 @@ form {
 input[name='name'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: white;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -51,7 +52,7 @@ input[name='name'] {
   input[name='email'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: white;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -62,7 +63,7 @@ input[name='name'] {
   input[name='subject'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: white;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -73,7 +74,7 @@ input[name='name'] {
   textarea {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: white;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -83,12 +84,12 @@ input[name='name'] {
   }
 
   .flat-button {
-    color: #ffd700;
+    color: #352e08;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 1px solid #352e08;
     float: left;
     border-radius: 4px;
     background: 0 0;
