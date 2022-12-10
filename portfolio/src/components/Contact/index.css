@@ -41,10 +41,10 @@ form {
 input[name='name'] {
     width: 100%;
     border: 0;
-    background: white;
+    background: #b18363;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #6f4e39;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -52,10 +52,10 @@ input[name='name'] {
   input[name='email'] {
     width: 100%;
     border: 0;
-    background: white;
+    background: #b18363;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #6f4e39;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -63,10 +63,10 @@ input[name='name'] {
   input[name='subject'] {
     width: 100%;
     border: 0;
-    background: white;
+    background: #b18363;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #6f4e39;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -74,22 +74,22 @@ input[name='name'] {
   textarea {
     width: 100%;
     border: 0;
-    background: white;
+    background: #b18363;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #6f4e39;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
   }
 
   .flat-button {
-    color: #352e08;
+    color: #c19770;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #352e08;
+    border: 1px solid #c19770;
     float: left;
     border-radius: 4px;
     background: 0 0;

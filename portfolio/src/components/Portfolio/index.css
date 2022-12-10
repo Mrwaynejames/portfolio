@@ -16,6 +16,7 @@
         width: 90%;
         height: 100%;
         overflow:auto;
+        color: #d5b895;
     }
 
     .workpic {
@@ -56,5 +57,6 @@
 
     .right {
         margin-right: -450px;
-        bottom: 800px;
+        /* bottom: 800px; */
+        margin-top: -510px;
     }

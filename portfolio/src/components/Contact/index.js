@@ -24,7 +24,7 @@ const Contact = () => {
         
 
 
-        <div className='container contact-page'>
+        <div className='container contact-page card'>
           <div className="text-zone">
                 <h1>
                 Contact Me
